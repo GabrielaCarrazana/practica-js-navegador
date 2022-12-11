@@ -63,6 +63,7 @@
     font-size: 20px;
     border-style: solid;
     border-color: black;
+    color: black;
     
 }
 .subtitle{
@@ -174,6 +175,7 @@
     margin-bottom: 1vh;
     border-style: solid;
     border-color: black;
+    color: black;
 
 }
 .elemento{

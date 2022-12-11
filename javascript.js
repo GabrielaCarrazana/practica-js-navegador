@@ -21,8 +21,15 @@ function Remove(li){
     localStorage.setItem("historial",JSON.stringify(historial.outerHTML))
 }
 
+//CUANDO INICIO LA APP INICIALIZO EL STORAGE
+if(localStorage.length==0){
+    localStorage.setItem('ahorro',0)
+    localStorage.setItem('gasto',0)
+    localStorage.setItem('ingreso',0)
+    localStorage.setItem('historial',0)
 
-    
+}
+
     
     
     

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title">Practica java Script con Navegador</title>
+</head>
+<link rel="stylesheet" href="./reset.css">
+<link rel="stylesheet" href="./stile.css">
+<body class="body">
+    
+
+    <h1 class="title">Control de Gastos</h1>
+    <div class="ahorros">
+        <label class="label" for="ahorros">TU AHORRO</label>
+        <br>
+        <h1 class="input" id="ahorros"  > 0.00 € </h1>
+    </div>
+    <div class="gastos">
+        <label for="gastos">GASTO</label>
+        <br>
+        <h1  id="gastos" type="number" > 00.0 €</h1>
+    </div>
+
+    <div class="ingresos">
+        <label for="ingresos">INGRESO</label>
+        <br>
+        <h1 id="ingresos" type="number" > 00.00 €</h1>
+    </div>
+
+
+    <div class="historico">
+        <label class="subtitle" for="historico">Historial</label>
+        <ol id="historico"></ol>
+    </div>
+
+
+
+    <div class="n_Tran">
+        <form class="form" action="" >
+            <h1 class="subtitle" >Añadir Nueva Transacción</h1>
+            <label class="Concepto" for="concepto">Concepto</label>
+            <br>
+            <input required id="concepto" step="any" placeholder="Añade Concepto" type="text" pattern="[a-zA-Z ]{2,25}">
+            <br>
+            <label class="cantidad" for="cantidad">Cantidad (negativo-gasto, positivo-ingreso)</label>
+            <br>
+            <input required class="cantidad" id="cantidad" placeholder="Introduce cantidad" type="number">
+            <button type="submit" class="boton"> Añadir Transacción</button>
+
+            
+        </form>
+        
+        
+    </div>
+
+    <div class="relleno"></div>
+   
+    <script src="./javascript.js"></script>
+    
+</body>
+</html>

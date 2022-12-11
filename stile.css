@@ -1,0 +1,186 @@
+.body{ background-color: #d8dde6;
+    display: grid;
+    grid-template-columns: 10vw 40vw 40vw 10vw;
+    grid-template-rows: 10vh 10vh 10vh 1fr 30vh 10vh;
+    grid-template-areas: 
+    "title title title title"
+    " ahorros ahorros ahorros ahorros"
+    "ingresos ingresos gastos gastos "
+    " historial historial historial historial "
+    "n_Tran n_Tran n_Tran n_Tran"
+    "boton boton boton boton";
+    
+   
+    
+
+}
+.ingresos, .gastos, .historico, .ahorros, .n_Tran{
+   
+    font-size: 18px;
+    text-decoration: dashed;
+    flex-wrap: wrap;
+    
+}
+.ahorros{
+    grid-area: ahorros;
+    margin: 0 auto;
+    width: 40vw;
+    height: 10vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    
+    
+}
+
+
+.relleno{
+    grid-area: relleno;
+}
+.ingresos label, .gastos label{
+    padding-left: 50%;
+    padding-right:50%;
+}
+
+
+
+.boton{
+    grid-area: boton;
+    background-color: #719beb;
+    border-radius: 5px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 6vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+.subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration-color: azure;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    margin-bottom: 1vh;
+    padding-top: 1vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    
+    
+
+}
+
+.title{
+    grid-area: title;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    background-color: whitesmoke;
+
+}
+.ingresos{
+    grid-area: ingresos;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;;
+    margin-left: 10vw;
+    margin-bottom: 1vh;
+    background-color: aliceblue;
+    width: 40vw;
+    height: 8vh;
+    
+}
+.ingresos h1{
+    color:green
+}
+.gastos h1{
+    color: red;
+}
+
+.gastos{
+    grid-area: gastos;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    margin-right: 10vw;
+    margin-bottom: 1vh;
+    background-color: aliceblue;
+    width: 40vw;
+    height: 8vh;
+
+   
+}
+.historico{
+    grid-area: historial;
+    padding-bottom: 10px;
+    border-width: 2px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-top-color: white;
+    border-top-style: solid;
+    margin-top: 1vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+    
+}
+
+.n_Tran{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    grid-area: n_Tran;
+    justify-content: center;
+    align-content: center;   
+    font-size: 22px;
+    
+}
+.n_Tran input{
+    background-color: aliceblue;
+    width: 80vw;
+    height: 5vh;
+    margin-right: 10vw;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: aliceblue;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 18px;
+}
+.eliminar{
+    background-color: #719beb;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1vh;
+
+}
+.elemento{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+    margin-bottom: 2px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+

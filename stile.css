@@ -36,10 +36,7 @@
     
     
 }
-.ahorros label{
-   
- 
-}
+
 
 
 .relleno{
@@ -64,6 +61,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 400;
     font-size: 20px;
+    border-style: solid;
+    border-color: black;
     
 }
 .subtitle{
@@ -173,6 +172,8 @@
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 1vh;
+    border-style: solid;
+    border-color: black;
 
 }
 .elemento{
